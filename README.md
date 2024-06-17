@@ -5,4 +5,4 @@ Welcome to the C++ Data Structures and Algorithms repository! This repository is
 ## Table of Contents
 - [Arrays](#arrays)
 - [Stacks](#stacks)
-- [Recursion].(#recursion)
+- [Recursion](#recursion)
