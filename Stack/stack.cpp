@@ -12,11 +12,12 @@ bool isEmpty(int x){
 }
 
 bool isFull(int x){
-    if (x == MAX -1)
+    if (x == MAX - 1)
         return true;
     else
         return false;
 }
+
 void push(int x){
     if (isFull(top) == true){
         cout << "Stack is full." << endl;
