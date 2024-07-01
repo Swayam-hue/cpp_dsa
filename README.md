@@ -6,3 +6,4 @@ Welcome to the C++ Data Structures and Algorithms repository! This repository is
 - [Arrays](#arrays)
 - [Stacks](#stacks)
 - [Recursion](#recursion)
+- [Linked Lists](#linkedlists)
