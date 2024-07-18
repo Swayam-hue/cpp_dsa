@@ -20,7 +20,7 @@ struct node* del_at_posn(struct node *head, int pos){
         cout << "List is empty";
         exit(0);
     }
-
+    
     struct node *ptr = head;
 
     if (pos == 1){
@@ -28,7 +28,6 @@ struct node* del_at_posn(struct node *head, int pos){
         free(ptr);
         return head;
     }
-
     else{
         pos--;
         while (pos != 1){
@@ -46,11 +45,12 @@ int main(){
     struct node *head = (struct node*)malloc(sizeof(struct node));
     head -> data = 45;
     head -> link = NULL;
-    
+
     struct node *ptr = head;
     ptr = add_at_end(ptr, 67);
     ptr = add_at_end(ptr, 89);
     ptr = add_at_end(ptr, 90);
+    ptr = add_at_end(ptr, 69);
 
     head = del_at_posn(head, 3);
 
